@@ -25,8 +25,8 @@ Support the project through donations
 💚 Built with accessibility and user empathy in mind
 
 🛠 Tech Stack
-React.js 
+-React.js 
 
-Tailwind CSS 
+-Tailwind CSS 
 
-Vite 
+-Vite 
