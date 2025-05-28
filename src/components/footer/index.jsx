@@ -14,7 +14,6 @@ const Footer = () => {
             It is our joy to see smiles on people's faces.<br />
             Support us today.
           </p>
-          <Button text="Donate Now" classStyle="p-3 bg-green-500 text-white rounded-xl hover:bg-green-600 transition-colors" />
         </div>
 
         {/* Contact */}

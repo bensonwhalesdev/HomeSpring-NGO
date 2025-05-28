@@ -14,7 +14,6 @@ const App = () => {
       <OurMemories />
       <OurTestimonies />
       <Footer />
-      
     </div>
   )
 }
