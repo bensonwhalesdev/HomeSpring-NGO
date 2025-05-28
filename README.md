@@ -1,12 +1,32 @@
-# React + Vite
+🌍 HopeSpring Water Project Website
+A clean and modern website dedicated to raising awareness and support for providing clean and sustainable water to underserved communities.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+🌟 Overview
+This website is built for HopeSpring Water Project, a nonprofit initiative committed to bringing clean and safe water to 300 villages by the year 2026.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+It serves as an informative and fundraising platform, enabling users to:
 
-## Expanding the ESLint configuration
+Learn about the mission
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Discover the ongoing and past impact
+
+Support the project through donations
+
+📌 Features
+🧭 Responsive and modern UI
+
+📝 Sections: About, Our Work, Our Impact
+
+💳 Call-to-action: "Donate Now" prominently displayed
+
+📱 Fully responsive design for mobile and desktop
+
+💚 Built with accessibility and user empathy in mind
+
+🛠 Tech Stack
+React.js 
+
+Tailwind CSS 
+
+Vite 
