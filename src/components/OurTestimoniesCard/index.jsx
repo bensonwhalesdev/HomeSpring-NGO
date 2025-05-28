@@ -4,7 +4,7 @@ const OurTestimoniesCard = ({image, text, name, position, testimony}) => {
   return (
     <>
       <div className='w-[90%] mx-auto'>
-        <div className='flex gap-[2em] items-center w-[600px] h-[300px] justify-center border p-4 rounded-[10px]'>
+        <div className='flex bg-gray-300 gap-[2em] items-center w-[600px] h-[300px] justify-center p-4 rounded-[10px]'>
           <div>
             <img className=' rounded-[10px]' src={image} alt="" />
           </div>
