@@ -22,10 +22,10 @@ const Button = ({ text, classStyle }) => {
             <form className="space-y-4">
               <input type="text" placeholder="Name" className="w-full p-3 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400" />
               <input type="email" placeholder="Email" className="w-full p-3 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400" />
-              <input type="text" placeholder="Card Number" className="w-full p-3 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400" />
+              <input type="number" placeholder="Card Number" className="w-full p-3 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400" />
               <div className="flex gap-2">
-                <input type="text" placeholder="CVV" className="w-1/2 p-3 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400" />
-                <input type="text" placeholder="Expiry Date (MM/YY)" className="w-1/2 p-3 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400" />
+                <input type="number" placeholder="CVV" className="w-1/2 p-3 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400" />
+                <input type="number" placeholder="Expiry Date (MM/YY)" className="w-1/2 p-3 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400" />
               </div>
               <input type="number" placeholder="Amount" className="w-full p-3 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400" />
               <button type="submit" className="w-full bg-blue-600 text-white py-3 rounded-md hover:bg-blue-700 transition">Pay Now</button>
