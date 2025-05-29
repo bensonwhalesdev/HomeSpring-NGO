@@ -1,22 +1,18 @@
-import React from 'react'
+import React from 'react';
 
-const OurTestimoniesCard = ({image, text, name, position, testimony}) => {
+const OurTestimoniesCard = ({ image, name, position, testimony }) => {
   return (
-    <>
-      <div className='w-[90%] mx-auto'>
-        <div className='flex bg-gray-300 gap-[2em] items-center w-[600px] h-[300px] justify-center p-4 rounded-[10px]'>
-          <div>
-            <img className=' rounded-[10px]' src={image} alt="" />
-          </div>
-          <div>
-            <h3 className=' text-[20px] font-bold'>{name}</h3>
-            <p className='text-[18px]'>{position}</p>
-            <p> {testimony} </p>
-          </div>
-        </div>
-      </div>
-    </>
-  )
-}
+    <div className="min-w-[300px] max-w-[300px] bg-green-100 rounded-xl shadow-md p-4 flex-shrink-0">
+      <img
+        src={image}
+        alt={name}
+        className="w-full h-48 object-cover rounded-md mb-4"
+      />
+      <h3 className="text-lg font-bold text-gray-800">{name}</h3>
+      <p className="text-sm text-gray-500 mb-2">{position}</p>
+      <p className="text-sm text-gray-700">{testimony}</p>
+    </div>
+  );
+};
 
-export default OurTestimoniesCard
+export default OurTestimoniesCard;
